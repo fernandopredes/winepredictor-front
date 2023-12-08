@@ -1,19 +1,32 @@
-# Vue 3 + TypeScript + Vite
+# Wine Predictor - Frontend 🍷
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Descrição 📝
+Este repositório contém o frontend de um aplicativo interativo de machine learning para a classificação de vinhos. A aplicação permite aos usuários inserirem características físico-químicas de vinhos e obterem previsões sobre suas classes.
 
-## Recommended IDE Setup
+## Tecnologias Utilizadas 💻
+- **Frontend:** Vue.js
+- **Integração de API:** Axios
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Como Configurar e Executar 🚀
+Para executar este frontend localmente, siga os passos abaixo:
 
-## Type Support For `.vue` Imports in TS
+1. **Clone o Repositório:**
+   ```bash
+   git clone [URL do Repositório]
+   cd [Nome do Diretório do Projeto]
+   ```
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+2. **Instale as Dependências:**
+   ```bash
+   npm install
+   ```
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+3. **Execute o Servidor de Desenvolvimento:**
+   ```bash
+   npm run dev
+   ```
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-# winepredictor-front
+
+## Funcionalidades 🌟
+- **Previsão de Classe:** Insira os valores das características dos vinhos e receba previsões instantâneas sobre suas classes.
+- **Informações Detalhadas:** Descubra mais sobre cada classe de vinho, incluindo características e perfis de sabor.
